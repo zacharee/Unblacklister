@@ -1,5 +1,26 @@
+[![](https://jitpack.io/v/zacharee/Unblacklister.svg)](https://jitpack.io/#zacharee/Unblacklister)
+
 # Unblacklister
 Super simple library to disable Android's hidden API blacklist
+
+Add it to your project:
+
+Project build.gradle:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Module build.gradle:
+```
+dependencies {
+    implementation 'com.github.zacharee:Unblacklister:VERSION'
+}
+```
 
 # Usage
 Java:
